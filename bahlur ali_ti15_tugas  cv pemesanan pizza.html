@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <title>Form Pemesanan Barang</title>
+</head>
+<body style="background-color:gray"></body>
+<h1 style="text-align: center;">
+    <a href="HOME">HOME |</a>
+    <a href="GENERATE LINK">GENERATE LINK |</a>
+    <a href="Trasactionhistory">Trasaction history |</a>
+    <a href="policy">policy |</a><input type="button" value="logout">
+</h1>
+<iframe src="photo"></iframe>
+  <form action="/client.php" method="POST" enctype="multipart/form-data">
+    <label>upload picture</em><br>
+    <input type="file" name="photo"></label>
+  </form>
+ <body>
+     <table>
+     <form>
+         <tr>
+             <td>Title Here : </td>
+             <td><input type="text" placeholder="Title here"></td>
+         </tr>
+         <tr>
+             <td>Description : </td>
+             <td><textarea name="Description" cols="20" rows="5"></textarea></td>
+         </tr>
+         <tr>
+             <td>Account Number : </td>
+             <td><input type="text" placeholder="Account Number"></td>
+         </tr>
+         <tr>
+            <td>Bank : </td>
+            <td><input type="text" list="Bank">
+            <datalist id="Bank" name="Bank">
+                <option value="mandiri"></option>
+                <option value="BCA"></option>
+                <option value="BRI"></option>
+                <option value="CIMB"></option>
+                <option value="BNI"></option>
+            </datalist></td>
+        </tr>
+        <tr>
+            <td>Account Holder : </td>
+            <td><input type="text" placeholder="Account Holder"></td>
+        </tr>
+        <tr>
+            <td>Trasaction</td>
+            <td><input type="number"</td>
+        </tr>
+     </form>
+     </table>
+ </body>
+    <body>
+        <dd>
+    <div>
+        if the Trasaction for the 3 person, choose 3 from the dropdown list
+        <form action="/action_page.php">
+            <dd style="color: green;">
+            <input type="checkbox" id="send1" name="send1" value="send1">
+            <label for="send1">Send to mobile phone</label><br>
+            <input type="checkbox" id="send2" name="send2" value="send2">
+            <label for="send2">Send to email</label><br>
+    </div>
+        </dd>
+    </body>
+    <body>
+        <table>
+        <form>
+            <tr>
+                <td>Send to mobile phone : </td>
+                <td><input type="text" placeholder="send to mobile phone"></td>
+            </tr>
+            <tr>
+                <td>Send to email</td>
+                <td><input type="email"placeholder="send to email"></td>
+            </tr>
+        </form>
+        </table>
+    </body>
+            <p>
+                <input style="color: green" type="submit" value="GENERATE LINK">
+
